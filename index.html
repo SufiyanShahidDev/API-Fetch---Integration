@@ -1,13 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>User Directory - DummyJSON</title>
     <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
 
     <div class="container">
@@ -25,13 +23,12 @@
 
     <div id="user-modal" class="modal">
         <div class="modal-body">
-            <button class="close-btn" aria-label="Close">
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24"
-                    stroke="currentColor">
+            <button onclick="closeModal()" class="close-btn" aria-label="Close">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
                 </svg>
             </button>
-
+            
             <div id="modal-content" class="modal-content-inner">
 
             </div>
@@ -40,5 +37,4 @@
 
 </body>
 <script src="app.js"></script>
-
 </html>
