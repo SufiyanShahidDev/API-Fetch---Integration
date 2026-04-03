@@ -28,7 +28,7 @@ const getAllUsers = async () => {
                         `;
             });
 
-            userContainer.innerHTML = userHTML.join("");
+            userContainer.innerHTML = userHTML.join(" ");
         }
     } catch (error) {
         console.log("Error fetching users: ", error);
